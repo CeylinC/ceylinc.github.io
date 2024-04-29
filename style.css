@@ -409,7 +409,7 @@ input:-webkit-autofill:focus {
 
 .page-title .title {
   position: relative;
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: #af9c87;
@@ -419,7 +419,7 @@ input:-webkit-autofill:focus {
 .text-center.page-title .title:before,
 .page-title .title:after {
   content: "";
-  width: 50px;
+  width: 5%;
   height: 1px;
   display: inline-block;
   background-color: #e1e1e1;
@@ -661,7 +661,7 @@ input:-webkit-autofill:focus {
 }
 
 .gallery-slide .owl-stage-outer {
-  background: url("images/mobile-screen.png") no-repeat center right / auto 100%;
+  background: url("images/mobile-screen.png") no-repeat center right / auto 85%;
 }
 
 .gallery-slide .item {
@@ -673,7 +673,6 @@ input:-webkit-autofill:focus {
 .gallery-slide .owl-controls {
   position: static;
   text-align: right;
-  padding-right: 80px;
 }
 
 .gallery-slide .owl-controls .owl-nav > div {
